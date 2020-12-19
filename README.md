@@ -1,4 +1,4 @@
-# TavelModel
+# TravelModel
 To run the trip-based travel demand model for CLMPO
 
 ## Computer set-up
