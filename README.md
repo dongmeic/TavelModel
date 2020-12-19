@@ -1,2 +1,8 @@
 # TavelModel
-The repository is created to organize the scripts to run the trip-based travel demand model for CLMPO. 
+To run the trip-based travel demand model for CLMPO
+
+## Computer set-up
+Install EMME, Cygwin, R, and Python 2.7, and set up the environmental variables
+
+## Review training materials
+
