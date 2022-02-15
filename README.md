@@ -24,4 +24,4 @@ Model setup - Need to change the seedbank path if run with seed.
 ## Data requests
 ### Lane miles by federal functional class
 
-The federal functional class values are from the Lane County Road Centerlines (RLIDGeo.DBO.Road). Using [the nearest spatial join]() approach, the federal functional classes are added to the base year 2020 and future year 2045 links.
+The federal functional class values are from the Lane County Road Centerlines (RLIDGeo.DBO.Road). Using [the nearest spatial join](https://github.com/dongmeic/TravelModel/blob/main/data_requests/lane_miles/add_functional_classes.ipynb) approach, the federal functional classes are added to the base year 2020 and future year 2045 links. The added variables 'fed_class', 'distances', and 'miles' are 'federal functional class', 'distances to roads', and 'lane miles'. Then lane miles in the base year 2020 and future year 2045 links are [aggregated by federal functional classes](https://github.com/dongmeic/TravelModel/blob/main/data_requests/lane_miles/aggregate_lane_miles.ipynb). 
